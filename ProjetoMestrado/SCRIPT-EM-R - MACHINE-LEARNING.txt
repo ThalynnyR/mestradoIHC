@@ -1,0 +1,9 @@
+#------ SCRIPT EM R - MACHINE LEARNING ---- #
+
+#Substituir valores ausentes pela média function ave()
+dataset $ Age [is.na (dataset $ Age)] = média (dataset $ Age, na.rm = T)
+
+# Só normalizar os dados quando eles são normalmente distribuidos (normalization)
+# Usar escala (standardization) para normalizar quando os dados não são distribuidos, em caso de dúvida sempre usar essa!
+
+ 
